@@ -1,11 +1,24 @@
-
 .success-card {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    background-color: white;
-    padding: 40px;
-    border-radius: 20px;
-    color: hsl(235, 18%, 26%);
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  color: hsl(235, 18%, 26%);
+}
 
+.dismiss-btn button {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.dismiss-btn button:hover {
+  background-color: hsl(4, 100%, 67%);
 }
