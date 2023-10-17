@@ -1,0 +1,11 @@
+
+.success-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    color: hsl(235, 18%, 26%);
+
+}
