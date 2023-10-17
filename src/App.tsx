@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import './components/FormContainer.css'
+import FormContainer from './components/FormContainer';
 
 
 function App() {
@@ -8,10 +10,12 @@ function App() {
   return (
     <>
       
-      content
+      <FormContainer />
         
     </>
   )
 }
 
-export default App
+export default App;
+
+
