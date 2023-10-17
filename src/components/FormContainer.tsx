@@ -1,7 +1,7 @@
 export default function FormContainer() {
   return (
     <div className="main-container">
-      <div className="form-container">
+      <div className="intro-container">
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monhtly updates on:</p>
         <div className="info-text">
@@ -57,6 +57,20 @@ export default function FormContainer() {
             </g>
           </svg>
           <span>Product discovery and building what matters </span>
+        </div>
+        <div className="form-container">
+          <div>
+            <form action="">
+              <label htmlFor="email">Email address</label>
+              <br />
+              <input
+                type="email"
+                placeholder="email@company.com"
+                id="email"
+              ></input>
+              <button type="submit">Subscribe to monthly newsletter</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
