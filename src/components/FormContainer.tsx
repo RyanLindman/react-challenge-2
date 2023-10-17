@@ -1,6 +1,7 @@
 export default function FormContainer() {
   return (
     <div className="main-container">
+       
       <div className="intro-container">
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monhtly updates on:</p>

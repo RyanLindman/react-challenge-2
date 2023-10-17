@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import './components/FormContainer.css'
 import FormContainer from './components/FormContainer';
+import SuccessContainer from './components/SuccessContainer';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
       
       <FormContainer />
+      <SuccessContainer />
         
     </>
   )
