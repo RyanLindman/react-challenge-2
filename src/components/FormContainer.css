@@ -7,11 +7,20 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 200px;
+  margin: 20px;
+  
+}
+.content-container {
+
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
 }
 
 .intro-container {
   width: 350px;
+  
   background-color: white;
   padding: 30px;
   border-radius: 20px;
@@ -70,3 +79,5 @@ button[type="submit"]:hover {
   background-color: hsl(4, 100%, 67%);
   
 }
+
+

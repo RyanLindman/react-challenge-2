@@ -3,7 +3,7 @@ export default function SuccessContainer() {
 
     return (
 
-        <p>content</p>
+        <p>SuccessContainer</p>
 
     )
 
